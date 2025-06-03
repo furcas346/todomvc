@@ -30,7 +30,7 @@ Ext.define('Todo.view.TaskList' , {
 				}
 			}, this, {
 				// TODO I can't get this to delegate using something like div.view input or input[type="checkbox"]
-				// So this will have a bug with teh input.edit field... I need to figure that out so I don't have to
+				// So this will have a bug with the input.edit field... I need to figure that out so I don't have to
 				// do the if logic above.
 				delegate: 'input'
 			});
